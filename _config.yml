@@ -1,7 +1,7 @@
 <!-- filepath: _config.yml -->
 # Site settings
 title: Todd Thomson
-email: todd@achilles-software.com
+email: todd.thomson@me.com
 description: Personal website of Todd Thomson, creator of Mila and other open source projects
 baseurl: ""
 url: "https://toddthomson.github.io"
