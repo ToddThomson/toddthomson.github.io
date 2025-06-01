@@ -22,12 +22,9 @@ Visit the live site at: **[toddthomson.github.io](https://toddthomson.github.io)
 ## 🚀 Featured Projects
 
 ### [Mila](https://github.com/ToddThomson/Mila)
-A powerful JavaScript/TypeScript build tool and module bundler
+Achilles Mila Deep Neural Network library for modeling, training and evaluating Deep Neural Networks
 - [Source Code](https://github.com/ToddThomson/Mila)
 - [Documentation](https://toddthomson.github.io/Mila/)
-
-### [TsPlugins](https://github.com/ToddThomson/TsPlugins)
-TypeScript transformation plugins for enhanced development workflows
 
 ## 🛠️ Technology Stack
 
@@ -130,7 +127,7 @@ While this is a personal website, suggestions and improvements are welcome! Feel
 ## 📞 Contact
 
 - **GitHub**: [@ToddThomson](https://github.com/ToddThomson)
-- **Email**: todd@achilles-software.com
+- **Email**: todd.thomson@me.com
 - **Website**: [toddthomson.github.io](https://toddthomson.github.io)
 
 ---

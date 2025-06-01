@@ -1,0 +1,122 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.rspec
+/coverage/
+/rdoc/
+/pkg/
+/spec/examples.txt
+/.yardoc/
+
+# Bundler
+.bundle
+Gemfile.lock
+
+# Node modules (if using Node.js tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+bin/
+obj/
+*.vcxproj.user
+*.vcxproj.filters
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Editor files
+.idea/
+*.swp
+*.swo
+*~
+.sublime-workspace
+.sublime-project
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Jekyll specific
+Gemfile.lock
+_drafts/
+.jekyll-cache/
+
+# GitHub Pages specific
+.github/
+
+# Personal files that shouldn't be committed
+TODO.md
+NOTES.md
+*.private
