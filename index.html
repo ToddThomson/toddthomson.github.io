@@ -1,9 +1,153 @@
 ---
-layout: frontpage
+layout: default
 ---
-<div class="jumbotron">
+
+<!-- Hero Section -->
+<section class="hero-section">
     <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is the humble beginning of my personal blog site.</p>
+        <h1>Todd Thomson</h1>
+        <p class="lead">Software Developer • Open Source Contributor • Creator of Mila</p>
+        <a href="#projects" class="btn btn-primary btn-lg">View My Projects</a>
+        <a href="https://github.com/ToddThomson" class="btn btn-outline btn-lg" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub Profile
+        </a>
     </div>
-</div>
+</section>
+
+<!-- Projects Section -->
+<section class="section" id="projects">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Featured Projects</h2>
+            <p>Here are some of the open source projects I've been working on</p>
+        </div>
+        
+        <div class="grid grid-2">
+            <!-- Mila Project -->
+            <div class="project-card">
+                <h3><i class="fas fa-code"></i> Mila</h3>
+                <p>A powerful and flexible JavaScript/TypeScript build tool and module bundler designed for modern web development. Mila provides fast compilation, advanced optimization, and seamless integration with popular frameworks.</p>
+                
+                <div class="project-features">
+                    <ul>
+                        <li>Lightning-fast TypeScript compilation</li>
+                        <li>Advanced tree-shaking and optimization</li>
+                        <li>Hot module replacement</li>
+                        <li>Plugin-based architecture</li>
+                        <li>Framework-agnostic design</li>
+                    </ul>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://github.com/ToddThomson/Mila" class="btn btn-github" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> Source Code
+                    </a>
+                    <a href="https://toddthomson.github.io/Mila/" class="btn btn-primary" target="_blank" rel="noopener">
+                        <i class="fas fa-book"></i> Documentation
+                    </a>
+                </div>
+            </div>
+            
+            <!-- TsPlugins Project -->
+            <div class="project-card">
+                <h3><i class="fab fa-js-square"></i> TsPlugins</h3>
+                <p>A collection of TypeScript transformation plugins that extend the TypeScript compiler with additional functionality for modern JavaScript development.</p>
+                
+                <div class="project-features">
+                    <ul>
+                        <li>Custom TypeScript transformations</li>
+                        <li>Compile-time optimizations</li>
+                        <li>Code generation utilities</li>
+                        <li>Development workflow enhancements</li>
+                    </ul>
+                </div>
+                
+                <div class="project-links">
+                    <a href="https://github.com/ToddThomson/TsPlugins" class="btn btn-github" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> Source Code
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Additional Projects -->
+            <div class="project-card">
+                <h3><i class="fas fa-tools"></i> Other Projects</h3>
+                <p>Various utilities, libraries, and tools that I've developed to solve specific problems in web development and software engineering.</p>
+                
+                <div class="project-links">
+                    <a href="https://github.com/ToddThomson?tab=repositories" class="btn btn-github" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i> View All Repositories
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Open Source Contributions -->
+            <div class="project-card">
+                <h3><i class="fas fa-heart"></i> Open Source</h3>
+                <p>I'm passionate about open source software and actively contribute to various projects in the JavaScript and TypeScript ecosystem.</p>
+                
+                <div class="project-links">
+                    <a href="https://github.com/ToddThomson" class="btn btn-github" target="_blank" rel="noopener">
+                        <i class="fas fa-code-branch"></i> Contributions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technology Stack Section -->
+<section class="section tech-stack" id="about">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Technology Stack</h2>
+            <p>Technologies and tools I work with</p>
+        </div>
+        
+        <div class="grid grid-4">
+            <div class="tech-item">
+                <i class="fab fa-js-square"></i>
+                <h4>JavaScript</h4>
+                <p>Modern ES6+ and TypeScript development</p>
+            </div>
+            <div class="tech-item">
+                <i class="fab fa-node-js"></i>
+                <h4>Node.js</h4>
+                <p>Server-side JavaScript and tooling</p>
+            </div>
+            <div class="tech-item">
+                <i class="fab fa-git-alt"></i>
+                <h4>Git</h4>
+                <p>Version control and collaboration</p>
+            </div>
+            <div class="tech-item">
+                <i class="fas fa-cogs"></i>
+                <h4>Build Tools</h4>
+                <p>Webpack, Rollup, and custom solutions</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section" id="contact">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Get In Touch</h2>
+            <p>Let's connect and discuss technology, open source, or potential collaborations</p>
+        </div>
+        
+        <div class="project-card text-center" style="max-width: 600px; margin: 0 auto;">
+            <p>I'm always interested in discussing new projects, open source contributions, or just chatting about technology. Feel free to reach out!</p>
+            
+            <div class="contact-links mt-3">
+                <a href="https://github.com/ToddThomson" class="btn btn-github btn-lg" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="mailto:todd@achilles-software.com" class="btn btn-primary btn-lg">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

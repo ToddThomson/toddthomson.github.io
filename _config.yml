@@ -1,0 +1,23 @@
+<!-- filepath: _config.yml -->
+# Site settings
+title: Todd Thomson
+email: todd@achilles-software.com
+description: Personal website of Todd Thomson, creator of Mila and other open source projects
+baseurl: ""
+url: "https://toddthomson.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
